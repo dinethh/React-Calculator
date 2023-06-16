@@ -1,0 +1,20 @@
+.btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #3d3d3dc9;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 30px;
+    bottom: 0;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+    flex: auto;
+    cursor: pointer;
+    color: white;
+    box-shadow: 1px 2px 2px 1px;
+    font-size: 24px;
+    font-weight: bold;
+}
