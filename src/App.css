@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
 .container {
   position: absolute;
   top: 0;
@@ -11,7 +15,7 @@
   background-color: black;
   padding: 10px;
   border-radius: 20px;
-  box-shadow: 1px 2px 3px 2px black;
+  
 
 }
 
@@ -20,5 +24,61 @@
   flex-direction: row;
   padding: 5px;
   column-gap: 5px;
+
+}
+
+.cover {
+  height: 550px;
+  width: 418px;
+  background-color: #101010;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  box-shadow: 1px 2px 2px 1px;
+  border-radius: 20px;
+  animation-name: casing;
+  animation-duration: 5s;
+  animation-fill-mode:forwards;
+  opacity: 1;
+}
+
+@keyframes casing {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  80% {
+    bottom: -1200px;
+    left: 0;
+    right: 0;
+    height: 550px;
+    width: 418px;
+  }
+  90%{
+    height: 550px;
+    width: 418px;
+ 
+  }
+  100% {
+    top: 50px;
+    left: 860px;
+    width: 350px;
+    height: 500px;
+  }
+}
+
+.cercle {
+  width: 190px;
+  height: 40px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background-color: #757575;
 
 }

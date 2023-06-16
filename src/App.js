@@ -57,6 +57,9 @@ const App = () => {
           <Button symbol="=" backgroundColor="orange" handleClick={calculate} />
         </div>
       </div>
+      <div class="cover">
+        <div class="cercle"></div>
+    </div>
     </div>
   );
 }
